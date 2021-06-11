@@ -1,0 +1,801 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33C87C53A20EBFA9E87CC8E9 /* Pods_ExperimentAppForStrengthChangeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B99EF6DDE9A43BBF0EBB156 /* Pods_ExperimentAppForStrengthChangeTests.framework */; };
+		651EF089A0B36BC11E1989BC /* Pods_ExperimentAppForStrengthChange_ExperimentAppForStrengthChangeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2943D9A7AB025700F24E9DE2 /* Pods_ExperimentAppForStrengthChange_ExperimentAppForStrengthChangeUITests.framework */; };
+		9E7893B9103196424696F28A /* Pods_ExperimentAppForStrengthChange.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D62A0F3C7BD3C7368FE09AC3 /* Pods_ExperimentAppForStrengthChange.framework */; };
+		D668A4E425ABE08E001795A2 /* FileOutputer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D668A4E325ABE08E001795A2 /* FileOutputer.swift */; };
+		D6886B7E25A8122F000E82FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6886B7D25A8122F000E82FC /* AppDelegate.swift */; };
+		D6886B8025A8122F000E82FC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6886B7F25A8122F000E82FC /* ContentView.swift */; };
+		D6886B8325A8122F000E82FC /* ExperimentAppForStrengthChange.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D6886B8125A8122F000E82FC /* ExperimentAppForStrengthChange.xcdatamodeld */; };
+		D6886B8525A81230000E82FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6886B8425A81230000E82FC /* Assets.xcassets */; };
+		D6886B8825A81230000E82FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6886B8725A81230000E82FC /* Preview Assets.xcassets */; };
+		D6886B8B25A81230000E82FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6886B8925A81230000E82FC /* Main.storyboard */; };
+		D6886B9725A81231000E82FC /* ExperimentAppForStrengthChangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6886B9625A81231000E82FC /* ExperimentAppForStrengthChangeTests.swift */; };
+		D6886BA225A81231000E82FC /* ExperimentAppForStrengthChangeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6886BA125A81231000E82FC /* ExperimentAppForStrengthChangeUITests.swift */; };
+		D6886BC325A814EA000E82FC /* SerialPort_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6886BC225A814EA000E82FC /* SerialPort_Controller.swift */; };
+		D6886BC825A816E4000E82FC /* TextForOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6886BC725A816E4000E82FC /* TextForOutput.swift */; };
+		D6886BCD25A81793000E82FC /* Experiment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6886BCC25A81792000E82FC /* Experiment.swift */; };
+		D6886BFC25A82F2B000E82FC /* Conditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6886BFB25A82F2B000E82FC /* Conditions.swift */; };
+		D6C00C6325B277BC009F9021 /* Experiment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6886BCC25A81792000E82FC /* Experiment.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6886B9325A81231000E82FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6886B7225A8122E000E82FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6886B7925A8122F000E82FC;
+			remoteInfo = ExperimentAppForStrengthChange;
+		};
+		D6886B9E25A81231000E82FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6886B7225A8122E000E82FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6886B7925A8122F000E82FC;
+			remoteInfo = ExperimentAppForStrengthChange;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16C83F67108EFC873C0F019C /* Pods-ExperimentAppForStrengthChangeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExperimentAppForStrengthChangeTests.debug.xcconfig"; path = "Target Support Files/Pods-ExperimentAppForStrengthChangeTests/Pods-ExperimentAppForStrengthChangeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1B9C467862C632D25B428B40 /* Pods-ExperimentAppForStrengthChange-ExperimentAppForStrengthChangeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExperimentAppForStrengthChange-ExperimentAppForStrengthChangeUITests.release.xcconfig"; path = "Target Support Files/Pods-ExperimentAppForStrengthChange-ExperimentAppForStrengthChangeUITests/Pods-ExperimentAppForStrengthChange-ExperimentAppForStrengthChangeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2943D9A7AB025700F24E9DE2 /* Pods_ExperimentAppForStrengthChange_ExperimentAppForStrengthChangeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExperimentAppForStrengthChange_ExperimentAppForStrengthChangeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58E340861547C974E2305395 /* Pods-ExperimentAppForStrengthChangeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExperimentAppForStrengthChangeTests.release.xcconfig"; path = "Target Support Files/Pods-ExperimentAppForStrengthChangeTests/Pods-ExperimentAppForStrengthChangeTests.release.xcconfig"; sourceTree = "<group>"; };
+		6B99EF6DDE9A43BBF0EBB156 /* Pods_ExperimentAppForStrengthChangeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExperimentAppForStrengthChangeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8749C0D2BF8D391F6C0FD264 /* Pods-ExperimentAppForStrengthChange-ExperimentAppForStrengthChangeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExperimentAppForStrengthChange-ExperimentAppForStrengthChangeUITests.debug.xcconfig"; path = "Target Support Files/Pods-ExperimentAppForStrengthChange-ExperimentAppForStrengthChangeUITests/Pods-ExperimentAppForStrengthChange-ExperimentAppForStrengthChangeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8FD35A3329ED4F732520170A /* Pods-ExperimentAppForStrengthChange.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExperimentAppForStrengthChange.release.xcconfig"; path = "Target Support Files/Pods-ExperimentAppForStrengthChange/Pods-ExperimentAppForStrengthChange.release.xcconfig"; sourceTree = "<group>"; };
+		CBF7176A197D9422E2A41D4C /* Pods-ExperimentAppForStrengthChange.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExperimentAppForStrengthChange.debug.xcconfig"; path = "Target Support Files/Pods-ExperimentAppForStrengthChange/Pods-ExperimentAppForStrengthChange.debug.xcconfig"; sourceTree = "<group>"; };
+		D62A0F3C7BD3C7368FE09AC3 /* Pods_ExperimentAppForStrengthChange.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExperimentAppForStrengthChange.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D668A4E325ABE08E001795A2 /* FileOutputer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileOutputer.swift; sourceTree = "<group>"; };
+		D6886B7A25A8122F000E82FC /* ExperimentAppForStrengthChange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExperimentAppForStrengthChange.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6886B7D25A8122F000E82FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D6886B7F25A8122F000E82FC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D6886B8225A8122F000E82FC /* ExperimentAppForStrengthChange.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExperimentAppForStrengthChange.xcdatamodel; sourceTree = "<group>"; };
+		D6886B8425A81230000E82FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6886B8725A81230000E82FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D6886B8A25A81230000E82FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6886B8C25A81230000E82FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6886B8D25A81230000E82FC /* ExperimentAppForStrengthChange.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ExperimentAppForStrengthChange.entitlements; sourceTree = "<group>"; };
+		D6886B9225A81231000E82FC /* ExperimentAppForStrengthChangeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExperimentAppForStrengthChangeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6886B9625A81231000E82FC /* ExperimentAppForStrengthChangeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperimentAppForStrengthChangeTests.swift; sourceTree = "<group>"; };
+		D6886B9825A81231000E82FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6886B9D25A81231000E82FC /* ExperimentAppForStrengthChangeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExperimentAppForStrengthChangeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6886BA125A81231000E82FC /* ExperimentAppForStrengthChangeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperimentAppForStrengthChangeUITests.swift; sourceTree = "<group>"; };
+		D6886BA325A81231000E82FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6886BC225A814EA000E82FC /* SerialPort_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerialPort_Controller.swift; sourceTree = "<group>"; };
+		D6886BC725A816E4000E82FC /* TextForOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextForOutput.swift; sourceTree = "<group>"; };
+		D6886BCC25A81792000E82FC /* Experiment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Experiment.swift; sourceTree = "<group>"; };
+		D6886BFB25A82F2B000E82FC /* Conditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conditions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6886B7725A8122F000E82FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E7893B9103196424696F28A /* Pods_ExperimentAppForStrengthChange.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6886B8F25A81231000E82FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33C87C53A20EBFA9E87CC8E9 /* Pods_ExperimentAppForStrengthChangeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6886B9A25A81231000E82FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				651EF089A0B36BC11E1989BC /* Pods_ExperimentAppForStrengthChange_ExperimentAppForStrengthChangeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EF1C7E2EA55616242BA2D89 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CBF7176A197D9422E2A41D4C /* Pods-ExperimentAppForStrengthChange.debug.xcconfig */,
+				8FD35A3329ED4F732520170A /* Pods-ExperimentAppForStrengthChange.release.xcconfig */,
+				8749C0D2BF8D391F6C0FD264 /* Pods-ExperimentAppForStrengthChange-ExperimentAppForStrengthChangeUITests.debug.xcconfig */,
+				1B9C467862C632D25B428B40 /* Pods-ExperimentAppForStrengthChange-ExperimentAppForStrengthChangeUITests.release.xcconfig */,
+				16C83F67108EFC873C0F019C /* Pods-ExperimentAppForStrengthChangeTests.debug.xcconfig */,
+				58E340861547C974E2305395 /* Pods-ExperimentAppForStrengthChangeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		702E794BB0D18DEF1526A639 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D62A0F3C7BD3C7368FE09AC3 /* Pods_ExperimentAppForStrengthChange.framework */,
+				2943D9A7AB025700F24E9DE2 /* Pods_ExperimentAppForStrengthChange_ExperimentAppForStrengthChangeUITests.framework */,
+				6B99EF6DDE9A43BBF0EBB156 /* Pods_ExperimentAppForStrengthChangeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6886B7125A8122E000E82FC = {
+			isa = PBXGroup;
+			children = (
+				D6886B7C25A8122F000E82FC /* ExperimentAppForStrengthChange */,
+				D6886B9525A81231000E82FC /* ExperimentAppForStrengthChangeTests */,
+				D6886BA025A81231000E82FC /* ExperimentAppForStrengthChangeUITests */,
+				D6886B7B25A8122F000E82FC /* Products */,
+				3EF1C7E2EA55616242BA2D89 /* Pods */,
+				702E794BB0D18DEF1526A639 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D6886B7B25A8122F000E82FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6886B7A25A8122F000E82FC /* ExperimentAppForStrengthChange.app */,
+				D6886B9225A81231000E82FC /* ExperimentAppForStrengthChangeTests.xctest */,
+				D6886B9D25A81231000E82FC /* ExperimentAppForStrengthChangeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6886B7C25A8122F000E82FC /* ExperimentAppForStrengthChange */ = {
+			isa = PBXGroup;
+			children = (
+				D6886B7D25A8122F000E82FC /* AppDelegate.swift */,
+				D6886B7F25A8122F000E82FC /* ContentView.swift */,
+				D6886BCC25A81792000E82FC /* Experiment.swift */,
+				D6886BFB25A82F2B000E82FC /* Conditions.swift */,
+				D6886BC225A814EA000E82FC /* SerialPort_Controller.swift */,
+				D6886BC725A816E4000E82FC /* TextForOutput.swift */,
+				D668A4E325ABE08E001795A2 /* FileOutputer.swift */,
+				D6886B8425A81230000E82FC /* Assets.xcassets */,
+				D6886B8925A81230000E82FC /* Main.storyboard */,
+				D6886B8C25A81230000E82FC /* Info.plist */,
+				D6886B8D25A81230000E82FC /* ExperimentAppForStrengthChange.entitlements */,
+				D6886B8125A8122F000E82FC /* ExperimentAppForStrengthChange.xcdatamodeld */,
+				D6886B8625A81230000E82FC /* Preview Content */,
+			);
+			path = ExperimentAppForStrengthChange;
+			sourceTree = "<group>";
+		};
+		D6886B8625A81230000E82FC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D6886B8725A81230000E82FC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D6886B9525A81231000E82FC /* ExperimentAppForStrengthChangeTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6886B9625A81231000E82FC /* ExperimentAppForStrengthChangeTests.swift */,
+				D6886B9825A81231000E82FC /* Info.plist */,
+			);
+			path = ExperimentAppForStrengthChangeTests;
+			sourceTree = "<group>";
+		};
+		D6886BA025A81231000E82FC /* ExperimentAppForStrengthChangeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6886BA125A81231000E82FC /* ExperimentAppForStrengthChangeUITests.swift */,
+				D6886BA325A81231000E82FC /* Info.plist */,
+			);
+			path = ExperimentAppForStrengthChangeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6886B7925A8122F000E82FC /* ExperimentAppForStrengthChange */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6886BA625A81231000E82FC /* Build configuration list for PBXNativeTarget "ExperimentAppForStrengthChange" */;
+			buildPhases = (
+				D4F2E069147F550D662ABAE4 /* [CP] Check Pods Manifest.lock */,
+				D6886B7625A8122F000E82FC /* Sources */,
+				D6886B7725A8122F000E82FC /* Frameworks */,
+				D6886B7825A8122F000E82FC /* Resources */,
+				B3BB0B9C5B33363FEC1D8B5F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExperimentAppForStrengthChange;
+			productName = ExperimentAppForStrengthChange;
+			productReference = D6886B7A25A8122F000E82FC /* ExperimentAppForStrengthChange.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6886B9125A81231000E82FC /* ExperimentAppForStrengthChangeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6886BA925A81231000E82FC /* Build configuration list for PBXNativeTarget "ExperimentAppForStrengthChangeTests" */;
+			buildPhases = (
+				18FDB0677ED9CCC6E913325F /* [CP] Check Pods Manifest.lock */,
+				D6886B8E25A81231000E82FC /* Sources */,
+				D6886B8F25A81231000E82FC /* Frameworks */,
+				D6886B9025A81231000E82FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6886B9425A81231000E82FC /* PBXTargetDependency */,
+			);
+			name = ExperimentAppForStrengthChangeTests;
+			productName = ExperimentAppForStrengthChangeTests;
+			productReference = D6886B9225A81231000E82FC /* ExperimentAppForStrengthChangeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6886B9C25A81231000E82FC /* ExperimentAppForStrengthChangeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6886BAC25A81231000E82FC /* Build configuration list for PBXNativeTarget "ExperimentAppForStrengthChangeUITests" */;
+			buildPhases = (
+				ECA284235D771A97131498EC /* [CP] Check Pods Manifest.lock */,
+				D6886B9925A81231000E82FC /* Sources */,
+				D6886B9A25A81231000E82FC /* Frameworks */,
+				D6886B9B25A81231000E82FC /* Resources */,
+				B01212941F57A822EE2735B8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6886B9F25A81231000E82FC /* PBXTargetDependency */,
+			);
+			name = ExperimentAppForStrengthChangeUITests;
+			productName = ExperimentAppForStrengthChangeUITests;
+			productReference = D6886B9D25A81231000E82FC /* ExperimentAppForStrengthChangeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6886B7225A8122E000E82FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					D6886B7925A8122F000E82FC = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					D6886B9125A81231000E82FC = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = D6886B7925A8122F000E82FC;
+					};
+					D6886B9C25A81231000E82FC = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = D6886B7925A8122F000E82FC;
+					};
+				};
+			};
+			buildConfigurationList = D6886B7525A8122E000E82FC /* Build configuration list for PBXProject "ExperimentAppForStrengthChange" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6886B7125A8122E000E82FC;
+			productRefGroup = D6886B7B25A8122F000E82FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6886B7925A8122F000E82FC /* ExperimentAppForStrengthChange */,
+				D6886B9125A81231000E82FC /* ExperimentAppForStrengthChangeTests */,
+				D6886B9C25A81231000E82FC /* ExperimentAppForStrengthChangeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6886B7825A8122F000E82FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6886B8B25A81230000E82FC /* Main.storyboard in Resources */,
+				D6886B8825A81230000E82FC /* Preview Assets.xcassets in Resources */,
+				D6886B8525A81230000E82FC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6886B9025A81231000E82FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6886B9B25A81231000E82FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18FDB0677ED9CCC6E913325F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExperimentAppForStrengthChangeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B01212941F57A822EE2735B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExperimentAppForStrengthChange-ExperimentAppForStrengthChangeUITests/Pods-ExperimentAppForStrengthChange-ExperimentAppForStrengthChangeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExperimentAppForStrengthChange-ExperimentAppForStrengthChangeUITests/Pods-ExperimentAppForStrengthChange-ExperimentAppForStrengthChangeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ExperimentAppForStrengthChange-ExperimentAppForStrengthChangeUITests/Pods-ExperimentAppForStrengthChange-ExperimentAppForStrengthChangeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3BB0B9C5B33363FEC1D8B5F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExperimentAppForStrengthChange/Pods-ExperimentAppForStrengthChange-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExperimentAppForStrengthChange/Pods-ExperimentAppForStrengthChange-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ExperimentAppForStrengthChange/Pods-ExperimentAppForStrengthChange-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4F2E069147F550D662ABAE4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExperimentAppForStrengthChange-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECA284235D771A97131498EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExperimentAppForStrengthChange-ExperimentAppForStrengthChangeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6886B7625A8122F000E82FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6886BFC25A82F2B000E82FC /* Conditions.swift in Sources */,
+				D6886BCD25A81793000E82FC /* Experiment.swift in Sources */,
+				D6886B8025A8122F000E82FC /* ContentView.swift in Sources */,
+				D6886B8325A8122F000E82FC /* ExperimentAppForStrengthChange.xcdatamodeld in Sources */,
+				D6886BC325A814EA000E82FC /* SerialPort_Controller.swift in Sources */,
+				D668A4E425ABE08E001795A2 /* FileOutputer.swift in Sources */,
+				D6886BC825A816E4000E82FC /* TextForOutput.swift in Sources */,
+				D6886B7E25A8122F000E82FC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6886B8E25A81231000E82FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C00C6325B277BC009F9021 /* Experiment.swift in Sources */,
+				D6886B9725A81231000E82FC /* ExperimentAppForStrengthChangeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6886B9925A81231000E82FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6886BA225A81231000E82FC /* ExperimentAppForStrengthChangeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6886B9425A81231000E82FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6886B7925A8122F000E82FC /* ExperimentAppForStrengthChange */;
+			targetProxy = D6886B9325A81231000E82FC /* PBXContainerItemProxy */;
+		};
+		D6886B9F25A81231000E82FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6886B7925A8122F000E82FC /* ExperimentAppForStrengthChange */;
+			targetProxy = D6886B9E25A81231000E82FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6886B8925A81230000E82FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6886B8A25A81230000E82FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6886BA425A81231000E82FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6886BA525A81231000E82FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D6886BA725A81231000E82FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBF7176A197D9422E2A41D4C /* Pods-ExperimentAppForStrengthChange.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ExperimentAppForStrengthChange/ExperimentAppForStrengthChange.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"ExperimentAppForStrengthChange/Preview Content\"";
+				DEVELOPMENT_TEAM = YH63GH788X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ExperimentAppForStrengthChange/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.takuma.ExperimentAppForStrengthChange;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D6886BA825A81231000E82FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FD35A3329ED4F732520170A /* Pods-ExperimentAppForStrengthChange.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ExperimentAppForStrengthChange/ExperimentAppForStrengthChange.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"ExperimentAppForStrengthChange/Preview Content\"";
+				DEVELOPMENT_TEAM = YH63GH788X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ExperimentAppForStrengthChange/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.takuma.ExperimentAppForStrengthChange;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D6886BAA25A81231000E82FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16C83F67108EFC873C0F019C /* Pods-ExperimentAppForStrengthChangeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YH63GH788X;
+				INFOPLIST_FILE = ExperimentAppForStrengthChangeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.takuma.ExperimentAppForStrengthChangeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExperimentAppForStrengthChange.app/Contents/MacOS/ExperimentAppForStrengthChange";
+			};
+			name = Debug;
+		};
+		D6886BAB25A81231000E82FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58E340861547C974E2305395 /* Pods-ExperimentAppForStrengthChangeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YH63GH788X;
+				INFOPLIST_FILE = ExperimentAppForStrengthChangeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.takuma.ExperimentAppForStrengthChangeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExperimentAppForStrengthChange.app/Contents/MacOS/ExperimentAppForStrengthChange";
+			};
+			name = Release;
+		};
+		D6886BAD25A81231000E82FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8749C0D2BF8D391F6C0FD264 /* Pods-ExperimentAppForStrengthChange-ExperimentAppForStrengthChangeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YH63GH788X;
+				INFOPLIST_FILE = ExperimentAppForStrengthChangeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.takuma.ExperimentAppForStrengthChangeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ExperimentAppForStrengthChange;
+			};
+			name = Debug;
+		};
+		D6886BAE25A81231000E82FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B9C467862C632D25B428B40 /* Pods-ExperimentAppForStrengthChange-ExperimentAppForStrengthChangeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YH63GH788X;
+				INFOPLIST_FILE = ExperimentAppForStrengthChangeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.takuma.ExperimentAppForStrengthChangeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ExperimentAppForStrengthChange;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6886B7525A8122E000E82FC /* Build configuration list for PBXProject "ExperimentAppForStrengthChange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6886BA425A81231000E82FC /* Debug */,
+				D6886BA525A81231000E82FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6886BA625A81231000E82FC /* Build configuration list for PBXNativeTarget "ExperimentAppForStrengthChange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6886BA725A81231000E82FC /* Debug */,
+				D6886BA825A81231000E82FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6886BA925A81231000E82FC /* Build configuration list for PBXNativeTarget "ExperimentAppForStrengthChangeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6886BAA25A81231000E82FC /* Debug */,
+				D6886BAB25A81231000E82FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6886BAC25A81231000E82FC /* Build configuration list for PBXNativeTarget "ExperimentAppForStrengthChangeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6886BAD25A81231000E82FC /* Debug */,
+				D6886BAE25A81231000E82FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D6886B8125A8122F000E82FC /* ExperimentAppForStrengthChange.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D6886B8225A8122F000E82FC /* ExperimentAppForStrengthChange.xcdatamodel */,
+			);
+			currentVersion = D6886B8225A8122F000E82FC /* ExperimentAppForStrengthChange.xcdatamodel */;
+			path = ExperimentAppForStrengthChange.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D6886B7225A8122E000E82FC /* Project object */;
+}

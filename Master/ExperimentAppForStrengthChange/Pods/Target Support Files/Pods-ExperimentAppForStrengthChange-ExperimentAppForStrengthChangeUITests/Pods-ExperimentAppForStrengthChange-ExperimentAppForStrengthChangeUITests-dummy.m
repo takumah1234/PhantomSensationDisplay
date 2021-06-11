@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_ExperimentAppForStrengthChange_ExperimentAppForStrengthChangeUITests : NSObject
+@end
+@implementation PodsDummy_Pods_ExperimentAppForStrengthChange_ExperimentAppForStrengthChangeUITests
+@end
